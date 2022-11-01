@@ -1,2 +1,2 @@
-class tamagotchi {
+var tamagotchi = {
 }

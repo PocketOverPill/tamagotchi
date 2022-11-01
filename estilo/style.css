@@ -8,7 +8,9 @@ body {
     justify-content: center;
     font-family: 'bakso';
 }
-
+body {
+    background-color: aquamarine;
+}
 #base {
     margin: auto;
     margin-top: 100px;
@@ -34,9 +36,10 @@ body {
 #canva {
     border: 8px black solid;
     background-color: aliceblue;
-    
+    position: relative;
     height: 210px;
     border-radius: 30px;
+    z-index: 1;
 }
 
 .botoes {
@@ -57,12 +60,36 @@ body {
     top: 20px;
     left: 150px;
 }
+#start {
+    position: absolute;
+    top: 45px;
+    left: 160px;
+}
 #b {
     top: 40px;
     left: 270px;
 }
+#select {
+    position: absolute;
+    top: 65px;
+    left: 280px;
+}
 #c {
     top: 20px;
     right: 150px;
+}
+#cancel {
+    position: absolute;
+    top: 45px;
+    right: 150px;
+}
+
+#pet {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 100px;
+    background-color: black;
+    z-index: 2;
 }
 
