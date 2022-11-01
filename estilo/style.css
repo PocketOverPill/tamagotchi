@@ -1,8 +1,12 @@
 
+@font-face {
+    font-family: 'bakso';
+    src: url(../fontes/BaksoSapi.otf);
+}
 body {
     text-align: center;
     justify-content: center;
-    font-family:  'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'bakso';
 }
 
 #base {
@@ -19,10 +23,18 @@ body {
     background: linear-gradient(90deg, rgba(9,87,121,1) 0%, rgba(0,212,255,1) 50%, rgba(9,87,121,1) 100%);
 }
 
+#titulo{
+    margin-top: 10%;
+    color: rgb(255,153,0);
+    text-shadow: 3px 3px 0px black;
+    text-transform: uppercase;
+    font-size: 46px;
+}
+
 #canva {
     border: 8px black solid;
     background-color: aliceblue;
-    margin-top: 10%;
+    
     height: 210px;
     border-radius: 30px;
 }
@@ -39,6 +51,7 @@ body {
     color: rgb(255,153,0);
     border-radius: 50%;
     position: absolute;
+    font-size: larger;
 }
 #a {
     top: 20px;
