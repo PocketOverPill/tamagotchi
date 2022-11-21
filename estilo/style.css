@@ -39,7 +39,6 @@ body {
     position: relative;
     height: 210px;
     border-radius: 30px;
-    z-index: 1;
 }
 
 .botoes {
